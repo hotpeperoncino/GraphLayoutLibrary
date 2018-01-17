@@ -2,6 +2,8 @@
 
 In order to port LayoutLibrary https://github.com/persistentsystems/LayoutLibrary to Linux, this repository is prepared.
 
+Notice: at this stage, this library will crash with the simplest example on linux.
+
 
 ## LayoutLibrary - A C++ Library to Layout Clustred Graphs
 
@@ -38,6 +40,11 @@ In order to port LayoutLibrary https://github.com/persistentsystems/LayoutLibrar
 6. Upon successful build of client and library, set LD_LIBRARY_PATH variable
 7. run a.out but it will cause SIGSEGV.
    and also valgrind reports invalid read error.
+  
+I checked on qt5.9 and boost 1.55.0 combination on ubuntu 14.4. 
+I built both libraries from source package.
+
+
   
 ### Using the layout library
 
