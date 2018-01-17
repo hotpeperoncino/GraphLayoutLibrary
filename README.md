@@ -1,5 +1,6 @@
-##
-In order to port LayoutLibrary to Linux, this repository is prepared.
+## Purpose
+
+In order to port LayoutLibrary https://github.com/persistentsystems/LayoutLibrary to Linux, this repository is prepared.
 
 
 ## LayoutLibrary - A C++ Library to Layout Clustred Graphs
@@ -36,6 +37,7 @@ In order to port LayoutLibrary to Linux, this repository is prepared.
 5. Run make
 6. Upon successful build of client and library, set LD_LIBRARY_PATH variable
 7. run a.out but it will cause SIGSEGV.
+   and also valgrind reports invalid read error.
   
 ### Using the layout library
 
