@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['m_5fbgraphwrapper',['m_bGraphWrapper',['../d2/d09/class_clustered_spring_embedder.html#aa3d906f9984196930c961de70416ac31',1,'ClusteredSpringEmbedder::m_bGraphWrapper()'],['../d1/d24/class_relax_inter_edges.html#ab0dfe0a8ec94277585b7a8ea7533eaff',1,'RelaxInterEdges::m_bGraphWrapper()']]],
+  ['m_5fbisdirtyedge',['m_bIsDirtyEdge',['../da/d6a/class_dirty_edge.html#ac20bafbe8a6a10e03eb6fac194efbddf',1,'DirtyEdge']]],
+  ['m_5fbisdirtynode',['m_bIsDirtyNode',['../d3/d40/class_dirty_node.html#ad1357993b337c0f57991c066872cda84',1,'DirtyNode']]],
+  ['m_5fdaverageposition',['m_dAveragePosition',['../d3/dec/class_reduced_nesting_tree_node.html#a0786dcdbe36901a70a39e086d8aa22bb',1,'ReducedNestingTreeNode']]],
+  ['m_5fddesirededgelength',['m_dDesiredEdgeLength',['../d4/dd0/class_spring_embedder.html#a4f3773382ca3b8538c6e9ec98ca400e1',1,'SpringEmbedder']]],
+  ['m_5fditerations',['m_dIterations',['../d4/dd0/class_spring_embedder.html#a6040dfd9140de1b1e7feab1ddb1afa20',1,'SpringEmbedder']]],
+  ['m_5fgmaingraph',['m_gMaingraph',['../d2/d09/class_clustered_spring_embedder.html#a37987b6f68a88f047f3311e6ba605642',1,'ClusteredSpringEmbedder::m_gMaingraph()'],['../d6/d60/class_test_graphml_writer.html#ae67a94da634e02f0b3785256b6589158',1,'TestGraphmlWriter::m_gMainGraph()'],['../dd/d01/class_hierarchical_layouter.html#ac15f8585b0f897b3a193567e5b890fb6',1,'HierarchicalLayouter::m_gMainGraph()']]],
+  ['m_5fgraphwrapper',['m_GraphWrapper',['../d1/d2c/class_layout_utility.html#a8125fb002a388f2e313cd8984282b14b',1,'LayoutUtility']]],
+  ['m_5fgsubgraph',['m_gSubgraph',['../d2/d09/class_clustered_spring_embedder.html#a8ee15d501b2f05e65006ccaca81dea03',1,'ClusteredSpringEmbedder']]],
+  ['m_5fgsubgraphorderinggraph',['m_gSubgraphOrderingGraph',['../db/d2f/class_subgraph_ordering_graph_wrapper.html#a6ee55efeeb6d7f06674fe0dd3753e5e2',1,'SubgraphOrderingGraphWrapper']]],
+  ['m_5fimargin',['m_iMargin',['../d1/d2c/class_layout_utility.html#a25185866256baa9016ae8efaf903371b',1,'LayoutUtility']]],
+  ['m_5firecursionindex',['m_iRecursionIndex',['../d6/d80/class_postprocessing.html#ad7677114c29526bfb5e90cf1392deb17',1,'Postprocessing']]],
+  ['m_5fitotaledges',['m_iTotalEdges',['../d6/d60/class_test_graphml_writer.html#a185ae5b9335e19b6e177ca831c61f506',1,'TestGraphmlWriter']]],
+  ['m_5fitotalnodes',['m_iTotalNodes',['../d6/d60/class_test_graphml_writer.html#a7da173ceb178a3720e8bc39727bb98d7',1,'TestGraphmlWriter']]],
+  ['m_5fivertexoverlapconter',['m_iVertexOverlapConter',['../d6/d80/class_postprocessing.html#a783d145e5c1b0b852f2bf611d735aac5',1,'Postprocessing::m_iVertexOverlapConter()'],['../d5/d56/class_vertex_overlap_removal.html#a0b24af2d97999aecb7979264cf8f8f36',1,'VertexOverlapRemoval::m_iVertexOverlapConter()']]],
+  ['m_5flayernode',['m_layerNode',['../d3/dec/class_reduced_nesting_tree_node.html#ae5d7e2fd6c8333837f4277501c13e914',1,'ReducedNestingTreeNode']]],
+  ['m_5fmapchildrenrntnodes',['m_mapChildrenRNTNodes',['../d3/dec/class_reduced_nesting_tree_node.html#a33d263af85c2a28a9cdbc17a7690d5fd',1,'ReducedNestingTreeNode']]],
+  ['m_5fmapsubgraphsid',['m_MapSubgraphsId',['../d6/dc6/class_membership_initializer.html#ae294d91dd007485288a610fe232b2d9b',1,'MembershipInitializer']]],
+  ['m_5fnestingtreenode',['m_nestingTreeNode',['../d3/dec/class_reduced_nesting_tree_node.html#a868c929c1d18835c75067832bc11e8bd',1,'ReducedNestingTreeNode']]],
+  ['m_5fsexecutionlogfilename',['m_sExecutionLogFileName',['../dd/d01/class_hierarchical_layouter.html#af7d25c73fa75957cbe5bb628fe2ded35',1,'HierarchicalLayouter']]],
+  ['m_5fsfilename',['m_sFileName',['../d6/d60/class_test_graphml_writer.html#ac187a937b1e1ef83dcd858a7778f473b',1,'TestGraphmlWriter']]],
+  ['m_5fvecbendpoints',['m_vecBendPoints',['../da/d6a/class_dirty_edge.html#ae5fabd5012e0b2477e8882e2854eaf87',1,'DirtyEdge']]]
+];

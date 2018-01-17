@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+ <key id="key_0" attr.type="integer" attr.name="coord_x" for="node"/>
+ <key id="key_1" attr.type="integer" attr.name="coord_y" for="node"/>
+ <key id="key_2" attr.type="integer" attr.name="height" for="node"/>
+ <key id="key_3" attr.type="integer" attr.name="width" for="node"/>
+ <key id="key_4" attr.type="integer" attr.name="coord_x" for="graph"/>
+ <key id="key_5" attr.type="integer" attr.name="coord_y" for="graph"/>
+ <key id="key_6" attr.type="integer" attr.name="height" for="graph"/>
+ <key id="key_7" attr.type="integer" attr.name="width" for="graph"/>
+ <key id="key_8" attr.type="boolean" attr.name="bidirectional" for="edge"/>
+ <graph id="default" edgedefault="undirected">
+  <data key="key_4">-38</data>
+  <data key="key_5">-11</data>
+  <data key="key_6">664</data>
+  <data key="key_7">983</data>
+  <node id="S_1">
+   <data key="key_0">103</data>
+   <data key="key_1">125</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_10">
+   <data key="key_0">842</data>
+   <data key="key_1">265</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_11">
+   <data key="key_0">429</data>
+   <data key="key_1">140</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_12">
+   <data key="key_0">151</data>
+   <data key="key_1">51</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_13">
+   <data key="key_0">-13</data>
+   <data key="key_1">19</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_14">
+   <data key="key_0">50</data>
+   <data key="key_1">219</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_15">
+   <data key="key_0">672</data>
+   <data key="key_1">459</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_16">
+   <data key="key_0">612</data>
+   <data key="key_1">143</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_17">
+   <data key="key_0">843</data>
+   <data key="key_1">51</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_18">
+   <data key="key_0">860</data>
+   <data key="key_1">170</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_19">
+   <data key="key_0">232</data>
+   <data key="key_1">187</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_2">
+   <data key="key_0">415</data>
+   <data key="key_1">65</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_20">
+   <data key="key_0">313</data>
+   <data key="key_1">14</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_21">
+   <data key="key_0">482</data>
+   <data key="key_1">20</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_22">
+   <data key="key_0">489</data>
+   <data key="key_1">253</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_23">
+   <data key="key_0">172</data>
+   <data key="key_1">291</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_24">
+   <data key="key_0">9</data>
+   <data key="key_1">498</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_25">
+   <data key="key_0">511</data>
+   <data key="key_1">405</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_26">
+   <data key="key_0">311</data>
+   <data key="key_1">394</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_27">
+   <data key="key_0">222</data>
+   <data key="key_1">487</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_28">
+   <data key="key_0">735</data>
+   <data key="key_1">415</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_29">
+   <data key="key_0">714</data>
+   <data key="key_1">289</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_3">
+   <data key="key_0">608</data>
+   <data key="key_1">275</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_30">
+   <data key="key_0">765</data>
+   <data key="key_1">538</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_31">
+   <data key="key_0">428</data>
+   <data key="key_1">558</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_32">
+   <data key="key_0">197</data>
+   <data key="key_1">544</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_33">
+   <data key="key_0">606</data>
+   <data key="key_1">588</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_4">
+   <data key="key_0">37</data>
+   <data key="key_1">384</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_5">
+   <data key="key_0">447</data>
+   <data key="key_1">489</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_6">
+   <data key="key_0">759</data>
+   <data key="key_1">102</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_7">
+   <data key="key_0">324</data>
+   <data key="key_1">267</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_8">
+   <data key="key_0">174</data>
+   <data key="key_1">406</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <node id="S_9">
+   <data key="key_0">857</data>
+   <data key="key_1">439</data>
+   <data key="key_2">40</data>
+   <data key="key_3">40</data>
+  </node>
+  <edge target="S_7" id="S_13_R_1_S_7" source="S_13">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_7" id="S_24_R_10_S_7" source="S_24">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_25" id="S_32_R_11_S_25" source="S_32">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_26" id="S_31_R_12_S_26" source="S_31">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_27" id="S_5_R_13_S_27" source="S_5">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_22" id="S_5_R_14_S_22" source="S_5">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_7" id="S_25_R_15_S_7" source="S_25">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_6" id="S_25_R_16_S_6" source="S_25">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_22" id="S_28_R_17_S_22" source="S_28">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_5" id="S_29_R_18_S_5" source="S_29">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_11" id="S_15_R_19_S_11" source="S_15">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_26" id="S_19_R_2_S_26" source="S_19">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_29" id="S_2_R_20_S_29" source="S_2">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_16" id="S_28_R_21_S_16" source="S_28">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_6" id="S_15_R_22_S_6" source="S_15">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_7" id="S_10_R_23_S_7" source="S_10">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_11" id="S_9_R_24_S_11" source="S_9">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_16" id="S_18_R_25_S_16" source="S_18">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_26" id="S_17_R_26_S_26" source="S_17">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_33" id="S_15_R_27_S_33" source="S_15">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_25" id="S_30_R_28_S_25" source="S_30">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_11" id="S_23_R_3_S_11" source="S_23">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_14" id="S_2_R_4_S_14" source="S_2">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_12" id="S_8_R_5_S_12" source="S_8">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_26" id="S_1_R_6_S_26" source="S_1">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_20" id="S_27_R_7_S_20" source="S_27">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_2" id="S_4_R_8_S_2" source="S_4">
+   <data key="key_8">true</data>
+  </edge>
+  <edge target="S_12" id="S_21_R_9_S_12" source="S_21">
+   <data key="key_8">true</data>
+  </edge>
+ </graph>
+</graphml>

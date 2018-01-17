@@ -1,0 +1,491 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://graphml.graphdrawing.org/xmlns" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="graphml">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="key" maxOccurs="unbounded" minOccurs="4">
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:element type="xs:string" name="default" maxOccurs="1" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id" use="required"/>
+            <xs:attribute type="xs:string" name="for" use="required"/>
+            <xs:attribute type="xs:string" name="attr.name" use="required"/>
+            <xs:attribute type="xs:string" name="attr.type" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="graph" maxOccurs="unbounded" minOccurs="1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="data" maxOccurs="unbounded" minOccurs="4">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:int">
+                      <xs:attribute type="xs:string" name="key" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="node" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="graph" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="data" maxOccurs="unbounded" minOccurs="4">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:int">
+                                  <xs:attribute type="xs:string" name="key" use="required"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="node" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="graph" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="data" maxOccurs="unbounded" minOccurs="4">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:int">
+                                              <xs:attribute type="xs:string" name="key" use="required"/>
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="node" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="graph" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                                                    <xs:complexType>
+                                                      <xs:simpleContent>
+                                                        <xs:extension base="xs:int">
+                                                          <xs:attribute type="xs:string" name="key" use="optional"/>
+                                                        </xs:extension>
+                                                      </xs:simpleContent>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element name="node" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="graph" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="data" maxOccurs="unbounded" minOccurs="4">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:int">
+                                              <xs:attribute type="xs:string" name="key" use="required"/>
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="node" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="graph" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="data" maxOccurs="unbounded" minOccurs="4">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:int">
+                      <xs:attribute type="xs:string" name="key" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="node" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="graph" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="data" maxOccurs="unbounded" minOccurs="4">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:int">
+                                  <xs:attribute type="xs:string" name="key" use="required"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="node" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="graph" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="data" maxOccurs="unbounded" minOccurs="4">
+                                        <xs:complexType>
+                                          <xs:simpleContent>
+                                            <xs:extension base="xs:int">
+                                              <xs:attribute type="xs:string" name="key" use="required"/>
+                                            </xs:extension>
+                                          </xs:simpleContent>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="node" maxOccurs="unbounded" minOccurs="0">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="data" maxOccurs="unbounded" minOccurs="4">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:int">
+                                                    <xs:attribute type="xs:string" name="key" use="required"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute type="xs:string" name="id" use="required"/>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="edge" maxOccurs="unbounded" minOccurs="0">
+										<xs:complexType>
+										  <xs:sequence>
+											<xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+											  <xs:complexType mixed="true">
+												<xs:sequence>
+												  <xs:element name="bend" maxOccurs="unbounded" minOccurs="0">
+													<xs:complexType>
+													  <xs:simpleContent>
+														<xs:extension base="xs:string">
+														  <xs:attribute type="xs:int" name="X" use="optional"/>
+														  <xs:attribute type="xs:int" name="Y" use="optional"/>
+														</xs:extension>
+													  </xs:simpleContent>
+													</xs:complexType>
+												  </xs:element>
+												</xs:sequence>
+												<xs:attribute type="xs:string" name="key" use="optional"/>
+											  </xs:complexType>
+											</xs:element>
+										  </xs:sequence>
+										  <xs:attribute type="xs:string" name="id"/>
+										  <xs:attribute type="xs:string" name="source"/>
+										  <xs:attribute type="xs:string" name="target"/>
+										</xs:complexType>
+									  </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="id"/>
+                                    <xs:attribute type="xs:string" name="edgedefault"/>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:int">
+                                        <xs:attribute type="xs:string" name="key" use="required"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="id" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="edge" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="bend" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:int" name="X" use="optional"/>
+                                  <xs:attribute type="xs:int" name="Y" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id"/>
+                  <xs:attribute type="xs:string" name="source"/>
+                  <xs:attribute type="xs:string" name="target"/>
+                </xs:complexType>
+              </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="id" use="optional"/>
+                        <xs:attribute type="xs:string" name="edgedefault" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:int">
+                            <xs:attribute type="xs:string" name="key" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="edge" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="bend" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:int" name="X" use="optional"/>
+                                  <xs:attribute type="xs:int" name="Y" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id"/>
+                  <xs:attribute type="xs:string" name="source"/>
+                  <xs:attribute type="xs:string" name="target"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id"/>
+            <xs:attribute type="xs:string" name="edgedefault"/>
+          </xs:complexType>
+        </xs:element>
+                                            <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:int">
+                                                    <xs:attribute type="xs:string" name="key" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute type="xs:string" name="id" use="optional"/>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="edge" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="bend" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:int" name="X" use="optional"/>
+                                  <xs:attribute type="xs:int" name="Y" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id"/>
+                  <xs:attribute type="xs:string" name="source"/>
+                  <xs:attribute type="xs:string" name="target"/>
+                </xs:complexType>
+              </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="id"/>
+                                    <xs:attribute type="xs:string" name="edgedefault"/>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:int">
+                                        <xs:attribute type="xs:string" name="key" use="required"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="id" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="edge" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="bend" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:int" name="X" use="optional"/>
+                                  <xs:attribute type="xs:int" name="Y" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id"/>
+                  <xs:attribute type="xs:string" name="source"/>
+                  <xs:attribute type="xs:string" name="target"/>
+                </xs:complexType>
+              </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute type="xs:string" name="edgedefault"/>
+                                                <xs:attribute type="xs:string" name="id"/>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:int">
+                                                    <xs:attribute type="xs:string" name="key" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute type="xs:string" name="id" use="optional"/>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="edge" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="bend" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:int" name="X" use="optional"/>
+                                  <xs:attribute type="xs:int" name="Y" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id"/>
+                  <xs:attribute type="xs:string" name="source"/>
+                  <xs:attribute type="xs:string" name="target"/>
+                </xs:complexType>
+              </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute type="xs:string" name="id"/>
+                                    <xs:attribute type="xs:string" name="edgedefault"/>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:int">
+                                        <xs:attribute type="xs:string" name="key" use="required"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="id" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="edge" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="bend" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:int" name="X" use="optional"/>
+                                  <xs:attribute type="xs:int" name="Y" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id"/>
+                  <xs:attribute type="xs:string" name="source"/>
+                  <xs:attribute type="xs:string" name="target"/>
+                </xs:complexType>
+              </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="id" use="optional"/>
+                        <xs:attribute type="xs:string" name="edgedefault" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:int">
+                            <xs:attribute type="xs:string" name="key" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="edge" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="data" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType mixed="true">
+                        <xs:sequence>
+                          <xs:element name="bend" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute type="xs:int" name="X" use="optional"/>
+                                  <xs:attribute type="xs:int" name="Y" use="optional"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute type="xs:string" name="key" use="optional"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute type="xs:string" name="id"/>
+                  <xs:attribute type="xs:string" name="source"/>
+                  <xs:attribute type="xs:string" name="target"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="id"/>
+            <xs:attribute type="xs:string" name="edgedefault"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
